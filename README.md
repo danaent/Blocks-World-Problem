@@ -6,9 +6,9 @@ The blocks world consits of a set of numbered blocks arranged on a table. Each b
 
 The following heuristics can be used:
 
-- Heuristic 1: Returns the number of blocks placed on top of the wrong block
-- Heuristic 2: Starting from the bottom of each stack, this heuristic finds the first block that is placed on the wrong block, adds every block that is stacked above it to the sum of incorrectly placed blocks and returns that sum.
-- Heuristic 3: Same as 2, but adds 2 to the sum for each block that must be moved twice. A block must be moved twice if the block it must be placed on is somewhere beneath it in the same stack.
+- **Heuristic 1:** Returns the number of blocks placed on top of the wrong block
+- **Heuristic 2:** Starting from the bottom of each stack, this heuristic finds the first block that is placed on the wrong block, adds every block that is stacked above it to the sum of incorrectly placed blocks and returns that sum.
+- **Heuristic 3:** Same as 2, but adds 2 to the sum for each block that must be moved twice. A block must be moved twice if the block it must be placed on is somewhere beneath it in the same stack.
 
 ## Use
 
