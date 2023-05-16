@@ -2,8 +2,6 @@
 #include <stdbool.h>
 #include "../include/item.h"
 
-#define INIT_SIZE 64
-
 typedef struct priority_queue* PQ;
 
 // Initializes PQ
