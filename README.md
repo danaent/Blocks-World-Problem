@@ -1,6 +1,6 @@
 # Blocks World Problem
 
-The blocks world consits of a set of numbered blocks arranged on a table. Each block is either placed on top of another block, forming a stack, or on the table. The goal is to go from a given initial state to a given goal state by making the minimum number of moves possible. Only one block can be moved at a time and blocks can only be moved if there are no other blocks on top of them. Here the problem is solved using A* search.
+The [blocks world](https://en.wikipedia.org/wiki/Blocks_world) is a popular planing domain in artificial intelligence. It consits of a set of numbered blocks and a table. Each block is either placed on top of another block, forming a stack, or on the table. The goal is to go from a given initial state to a given goal state by making the minimum number of moves possible. Only one block can be moved at a time and blocks can only be moved if there are no other blocks on top of them. Here the problem is solved using A* search.
 
 ## Heuristics
 
