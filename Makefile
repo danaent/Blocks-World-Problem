@@ -1,12 +1,6 @@
-# Default heuristic
-ifndef HEURISTIC
-HEURISTIC = 3
-endif
-
-# Default number of test
-ifndef TEST
-TEST = 3
-endif
+# Default values
+HEURISTIC ?= 3
+TEST ?= 3
 
 # Compiler settings
 CC = gcc
